@@ -7,7 +7,7 @@ namespace ContentConfiguring
     {
         public string SectionName { get; init; }
 
-        public ConfigurableClassAttribute(string sectionName) 
+        public ConfigurableClassAttribute(string sectionName)
         {
             SectionName = sectionName ?? throw new ArgumentNullException(nameof(sectionName));
         }

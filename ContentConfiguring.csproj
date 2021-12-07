@@ -2,6 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>RE.ContentConfiguring</PackageId>
+    <Authors>RabkovEvgeniy</Authors>
+    <RepositoryUrl>https://github.com/RabkovEvgeniy/ContentConfiguring</RepositoryUrl>
+    <Description>Данная библиотека позволит легко реализовать конфигурацию сложных систем, в которых требуется конфигурация большого количества текстовой информации</Description>
+    <NeutralLanguage></NeutralLanguage>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
 
   <ItemGroup>
